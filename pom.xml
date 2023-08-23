@@ -43,7 +43,14 @@
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>5.0.9</version>
-		</dependency>
+		</dependency
+
+			<dependency>
+	    <groupId>org.projectlombok</groupId>
+	    <artifactId>lombok</artifactId>
+	    <version>1.18.24</version>
+	    <scope>provided</scope>
+	</dependency>
 
 		<dependency>
 			<groupId>commons-io</groupId>
@@ -79,11 +86,7 @@
 			<version>3.13.0</version>
 		</dependency>
 
-		<dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok</artifactId>
-    <version>1.18.16</version>
-</dependency>
+	
 
 
 	</dependencies>
