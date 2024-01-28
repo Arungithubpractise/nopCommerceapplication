@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nopCommerceapplication.testcases.DDLogintest">
+      <class name="com.nopCommerceapplication.testcases.checkingorderstest">
         <methods>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="DdLogintest"/>
+          <include name="checkingorders"/>
         </methods>
-      </class> <!-- com.nopCommerceapplication.testcases.DDLogintest -->
+      </class> <!-- com.nopCommerceapplication.testcases.checkingorderstest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -24,7 +24,16 @@ public class Loginpage {
 	@FindBy(xpath="//button")
 	WebElement loginbutton;
 	
-public void setusername(String user)
+	@FindBy(xpath="//form/div[1]")
+	WebElement errormssage;
+	
+	@FindBy(xpath="//li[text()='The credentials provided are incorrect']")
+	WebElement credentialserrormessage;
+	
+	@FindBy(id = "Email-error")
+	WebElement Emailemailerror;
+	
+public  void setusername(String user)
 {
 	emailfield.clear();
 	emailfield.sendKeys(user);
@@ -41,5 +50,18 @@ public void clicklogin()
 	loginbutton.click();
 
 }
+
+public String credentialserrormessage()
+{
+	String errmess = credentialserrormessage.getText();
+	return errmess;
+}
+
+public String Emailemailerror()
+{
+	String email = Emailemailerror.getText();
+	return email;
+}
+
 
 }

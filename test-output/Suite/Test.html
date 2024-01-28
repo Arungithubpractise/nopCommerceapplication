@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/2/2</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Aug 22 20:31:02 IST 2023</td>
+<td>Started on:</td><td>Sun Jan 28 21:05:41 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>88 seconds (88261 ms)</td>
+<tr><td>Total time:</td><td>60 seconds (60452 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,25 +76,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.nopCommerceapplication.testcases.DDLogintest.DdLogintest()'><b>DdLogintest</b><br>Test class: com.nopCommerceapplication.testcases.DDLogintest<br>Parameters: admin@yourstore.com, admin1</td>
+<td title='com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest()'><b>DdLogintest</b><br>Test class: com.nopCommerceapplication.testcases.DatadrivenonLogin<br>Parameters: admin@yourstore.com, admin1</td>
 <td><div><pre>java.lang.AssertionError: expected [https://admin-demo.nopcommerce.com/admin/] but found [https://admin-demo.nopcommerce.com/login?returnurl=%2Fadmin%2F]
-	at com.nopCommerceapplication.testcases.DDLogintest.DdLogintest(DDLogintest.java:36)
+	at com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest(DatadrivenonLogin.java:34)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1547965072", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1547965072'><pre>java.lang.AssertionError: expected [https://admin-demo.nopcommerce.com/admin/] but found [https://admin-demo.nopcommerce.com/login?returnurl=%2Fadmin%2F]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace195730660", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace195730660'><pre>java.lang.AssertionError: expected [https://admin-demo.nopcommerce.com/admin/] but found [https://admin-demo.nopcommerce.com/login?returnurl=%2Fadmin%2F]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.nopCommerceapplication.testcases.DDLogintest.DdLogintest(DDLogintest.java:36)
+	at com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest(DatadrivenonLogin.java:34)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
@@ -116,61 +116,32 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>3</td>
-<td>com.nopCommerceapplication.testcases.DDLogintest@242b836</td></tr>
+<td>0</td>
+<td>com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d</td></tr>
 <tr>
-<td title='com.nopCommerceapplication.testcases.checkingorderstest.checkingorders()'><b>checkingorders</b><br>Test class: com.nopCommerceapplication.testcases.checkingorderstest</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a tabindex=&quot;-1&quot; class=&quot;k-link&quot; href=&quot;#&quot; data-value=&quot;2017/2/...&quot; title=&quot;Monday, March 13, 2017&quot;&gt;13&lt;/a&gt; is not clickable at point (447, 406). Other element would receive the click: &lt;div class=&quot;col-md-5&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=114.0.5735.199)
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;LAPTOP-6BLT8BB7&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\arunn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51029}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 11d3669f109b15aff2989a75d4c4d46c
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+<td title='com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest()'><b>DdLogintest</b><br>Test class: com.nopCommerceapplication.testcases.DatadrivenonLogin<br>Parameters: null, null</td>
+<td><div><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at com.nopCommerceapplication.pageobject.checkingorderspage.datepicker(checkingorderspage.java:159)
-	at com.nopCommerceapplication.testcases.checkingorderstest.checkingorders(checkingorderstest.java:55)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+	at com.nopCommerceapplication.pageobject.Loginpage.setusername(Loginpage.java:39)
+	at com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest(DatadrivenonLogin.java:22)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1543272907", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1543272907'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a tabindex=&quot;-1&quot; class=&quot;k-link&quot; href=&quot;#&quot; data-value=&quot;2017/2/...&quot; title=&quot;Monday, March 13, 2017&quot;&gt;13&lt;/a&gt; is not clickable at point (447, 406). Other element would receive the click: &lt;div class=&quot;col-md-5&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=114.0.5735.199)
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;LAPTOP-6BLT8BB7&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\arunn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51029}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 11d3669f109b15aff2989a75d4c4d46c
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1105778967", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1105778967'><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at com.nopCommerceapplication.pageobject.checkingorderspage.datepicker(checkingorderspage.java:159)
-	at com.nopCommerceapplication.testcases.checkingorderstest.checkingorders(checkingorderstest.java:55)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+	at com.nopCommerceapplication.pageobject.Loginpage.setusername(Loginpage.java:39)
+	at com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest(DatadrivenonLogin.java:22)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
@@ -192,51 +163,8 @@ Session ID: 11d3669f109b15aff2989a75d4c4d46c
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>15</td>
-<td>com.nopCommerceapplication.testcases.checkingorderstest@3f6f6701</td></tr>
-<tr>
-<td title='com.nopCommerceapplication.testcases.DDLogintest.DdLogintest()'><b>DdLogintest</b><br>Test class: com.nopCommerceapplication.testcases.DDLogintest<br>Parameters: null, null</td>
-<td><div><pre>java.lang.AssertionError: expected [https://admin-demo.nopcommerce.com/admin/] but found [https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F]
-	at com.nopCommerceapplication.testcases.DDLogintest.DdLogintest(DDLogintest.java:36)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace421632334", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace421632334'><pre>java.lang.AssertionError: expected [https://admin-demo.nopcommerce.com/admin/] but found [https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.nopCommerceapplication.testcases.DDLogintest.DdLogintest(DDLogintest.java:36)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>3</td>
-<td>com.nopCommerceapplication.testcases.DDLogintest@242b836</td></tr>
+<td>0</td>
+<td>com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -247,20 +175,139 @@ Session ID: 11d3669f109b15aff2989a75d4c4d46c
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.nopCommerceapplication.testcases.Logintest.logintestwithvalidcredentials()'><b>logintestwithvalidcredentials</b><br>Test class: com.nopCommerceapplication.testcases.Logintest</td>
+<td></td>
+<td>2</td>
+<td>com.nopCommerceapplication.testcases.Logintest@1b11171f</td></tr>
+<tr>
+<td title='com.nopCommerceapplication.testcases.Logintest.logintestwithonlyusernamepassed()'><b>logintestwithonlyusernamepassed</b><br>Test class: com.nopCommerceapplication.testcases.Logintest</td>
+<td></td>
+<td>0</td>
+<td>com.nopCommerceapplication.testcases.Logintest@1b11171f</td></tr>
+<tr>
+<td title='com.nopCommerceapplication.testcases.Logintest.logintestwithinvalidcredentials()'><b>logintestwithinvalidcredentials</b><br>Test class: com.nopCommerceapplication.testcases.Logintest</td>
+<td></td>
+<td>0</td>
+<td>com.nopCommerceapplication.testcases.Logintest@1b11171f</td></tr>
+<tr>
+<td title='com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest()'><b>DdLogintest</b><br>Test class: com.nopCommerceapplication.testcases.DatadrivenonLogin<br>Parameters: admin@yourstore.com, admin</td>
+<td></td>
+<td>2</td>
+<td>com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d</td></tr>
+<tr>
+<td title='com.nopCommerceapplication.testcases.Logintest.logintestwithonlyusernameispassed()'><b>logintestwithonlyusernameispassed</b><br>Test class: com.nopCommerceapplication.testcases.Logintest</td>
+<td></td>
+<td>0</td>
+<td>com.nopCommerceapplication.testcases.Logintest@1b11171f</td></tr>
+<tr>
+<td title='com.nopCommerceapplication.testcases.checkingorderstest.checkingorders()'><b>checkingorders</b><br>Test class: com.nopCommerceapplication.testcases.checkingorderstest</td>
+<td></td>
+<td>10</td>
+<td>com.nopCommerceapplication.testcases.checkingorderstest@f09733f</td></tr>
+<tr>
 <td title='com.nopCommerceapplication.testcases.Addcustomertest.Addcustomer()'><b>Addcustomer</b><br>Test class: com.nopCommerceapplication.testcases.Addcustomertest</td>
 <td></td>
-<td>14</td>
-<td>com.nopCommerceapplication.testcases.Addcustomertest@3527942a</td></tr>
+<td>8</td>
+<td>com.nopCommerceapplication.testcases.Addcustomertest@e350b40</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='com.nopCommerceapplication.testcases.Logintest.logintest()'><b>logintest</b><br>Test class: com.nopCommerceapplication.testcases.Logintest</td>
-<td></td>
-<td>5</td>
-<td>com.nopCommerceapplication.testcases.Logintest@53ce1329</td></tr>
+<td title='com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest()'><b>DdLogintest</b><br>Test class: com.nopCommerceapplication.testcases.DatadrivenonLogin<br>Parameters: admin@yourstore.com, admin1</td>
+<td><div><pre>java.lang.AssertionError: expected [https://admin-demo.nopcommerce.com/admin/] but found [https://admin-demo.nopcommerce.com/login?returnurl=%2Fadmin%2F]
+	at com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest(DatadrivenonLogin.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1238145834", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1238145834'><pre>java.lang.AssertionError: expected [https://admin-demo.nopcommerce.com/admin/] but found [https://admin-demo.nopcommerce.com/login?returnurl=%2Fadmin%2F]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest(DatadrivenonLogin.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d</td></tr>
 <tr>
-<td title='com.nopCommerceapplication.testcases.DDLogintest.DdLogintest()'><b>DdLogintest</b><br>Test class: com.nopCommerceapplication.testcases.DDLogintest<br>Parameters: admin@yourstore.com, admin</td>
-<td></td>
-<td>7</td>
-<td>com.nopCommerceapplication.testcases.DDLogintest@242b836</td></tr>
+<td title='com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest()'><b>DdLogintest</b><br>Test class: com.nopCommerceapplication.testcases.DatadrivenonLogin<br>Parameters: null, null</td>
+<td><div><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+	at com.nopCommerceapplication.pageobject.Loginpage.setusername(Loginpage.java:39)
+	at com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest(DatadrivenonLogin.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2002190941", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2002190941'><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+	at com.nopCommerceapplication.pageobject.Loginpage.setusername(Loginpage.java:39)
+	at com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest(DatadrivenonLogin.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d</td></tr>
 </table><p>
 </body>
 </html>

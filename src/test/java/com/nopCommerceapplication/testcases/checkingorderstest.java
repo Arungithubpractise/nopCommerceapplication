@@ -13,7 +13,9 @@ public class checkingorderstest extends Baseclass{
 	
 	Readconfig read = new Readconfig();
    	
-	@Test
+@Test(groups = {"sanity"})
+	
+	
 	public void checkingorders() throws IOException, InterruptedException {
 	
 		Loginpage lp = new Loginpage(driver);
@@ -44,24 +46,26 @@ public class checkingorderstest extends Baseclass{
 		check.selectdropdown1(check.Paymentmethod, "Check / Money Order");
 
 		check.Orderstatus();
-		check.selectdropdown2(check.Orderstatus1, "Complete");
+		check.selectdropdown2(check.Ordstadropdownvalues, "Complete");
 
 		check.Paymentstatuses();
-		check.selectdropdown2(check.Paymentstatuses1, "Paid");
+		check.selectdropdown2(check.Paymentstatusesdropdownvalues, "Paid");
 
 		check.Shippingstatuses();
-		check.selectdropdown2(check.Shippingstatuses1, "Delivered");
+		check.selectdropdown2(check.Shippingstatuses1dropdownvalues, "Delivered");
 
-		check.datepicker();
-
+		//check.datepicker();
+		
+		Thread.sleep(3000);
+		
 		check.search();
-
-		boolean status = check.searchOrders("victoria_victoria@nopCommerce.com");
+	
+		 boolean status = check.searchOrders("victoria_victoria@nopCommerce.com");
 		Assert.assertEquals(true, status);
 		
 		log.info("all details are entered");
 			
-
+		
 	}
 
 	

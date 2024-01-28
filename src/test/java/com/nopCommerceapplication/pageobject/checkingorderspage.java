@@ -7,11 +7,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
+
+import com.nopCommerceapplication.utility.Webdrivewaitutils;
 
 public class checkingorderspage {
 	
 	public WebDriver driver;
+	Webdrivewaitutils wait;
 
 	public checkingorderspage(WebDriver driver) {
 		this.driver = driver;
@@ -19,32 +21,29 @@ public class checkingorderspage {
 		
 	}
 
-	@FindBy(xpath = "//i[@class='nav-icon fas fa-shopping-cart']")
+	@FindBy(xpath = "(//p)[13]")
 	WebElement sales;
 
-	@FindBy(xpath = "//p[text()=' Orders']")
+	@FindBy(xpath = "(//p)[14]")
 	WebElement orders;
 
-	@FindBy(xpath = "//div[5]//div[@class='k-multiselect-wrap k-floatwrap']")
+	@FindBy(xpath = "(//div[@role=\"listbox\"])[1]")
 	public WebElement Orderstatus;
-
+	
 	@FindBy(xpath = "//ul[@id=\"OrderStatusIds_listbox\"]/li")
-	public List<WebElement> Orderstatus1;
+	public List<WebElement> Ordstadropdownvalues;
 
-	@FindBy(xpath = "//div[6]//div[@class='k-multiselect-wrap k-floatwrap']")
+	@FindBy(xpath = "(//div[@role=\"listbox\"])[2]")
 	public WebElement Paymentstatuses;
 
 	@FindBy(xpath = "//ul[@id=\"PaymentStatusIds_listbox\"]/li")
-	public List<WebElement> Paymentstatuses1;
-
-	@FindBy(xpath = "//ul[@id=\"ShippingStatusIds_listbox\"]/li")
-	public List<WebElement> Shippingstatuses1;
-
-	@FindBy(xpath = "//div[7]//div[@class='k-multiselect-wrap k-floatwrap']")
+	public List<WebElement> Paymentstatusesdropdownvalues;
+	
+	@FindBy(xpath = "(//div[@role=\"listbox\"])[3]")
 	public WebElement Shippingstatuses;
-
-	@FindBy(id = "WarehouseId")
-	WebElement Warehouse;
+	
+	@FindBy(xpath = "//ul[@id=\"ShippingStatusIds_listbox\"]/li")
+	public List<WebElement> Shippingstatuses1dropdownvalues;
 
 	@FindBy(id = "BillingCountryId")
 	public WebElement Billingcountry;
@@ -57,29 +56,18 @@ public class checkingorderspage {
 
 	@FindBy(xpath = "//tbody")
 	WebElement table;
-
-	@FindBy(xpath = "//table[@id='orders-grid']//tr/td")
+	
+	@FindBy(xpath = "//tbody/tr")
 	List<WebElement> tableRows;
+
+	//@FindBy(xpath = "//table[@id='orders-grid']//tr/td]")
+	//List<WebElement> tableRows;
 
 	@FindBy(xpath = "//tbody/tr/td")
 	List<WebElement> tableColumns;
 
-	@FindBy(xpath = "//span[@aria-controls='StartDate_dateview']")
-	WebElement datepicker;
-
-	@FindBy(xpath = "//div[@id='StartDate_dateview']//span[@class='k-icon k-i-arrow-60-left']")
-	WebElement datemover;
-
-	@FindBy(xpath = "//div[@id='StartDate_dateview']//a[@aria-live='assertive']")
-	WebElement monthdatetext;
-
-	@FindBy(xpath = "//a[@title='Monday, March 13, 2017']")
-	WebElement date13;
-
-	@FindBy(xpath = "//*[@id=\\\"orders-grid\\\"]/tbody/tr[1]/td[6]/a")
+	@FindBy(xpath = "//a[text()='victoria_victoria@nopCommerce.com']")
 	WebElement ord;
-	
-	
 
 	public  void sales() {
 		sales.click();
@@ -89,10 +77,6 @@ public class checkingorderspage {
 		orders.click();
 	}
 
-	public void Warehouse() {
-		Warehouse.click();
-		
-	}
 
 	public void Billingcountry() {
 		Billingcountry.click();
@@ -116,69 +100,34 @@ public class checkingorderspage {
 
 	public void selectdropdown1(WebElement ele, String value) {
 	
-		Select drp = new Select(ele);
-		List<WebElement> alloptions = drp.getOptions();
-
-		for (WebElement option : alloptions) {
-			if (option.getText().equals(value)) {
-				option.click();
-				break;
-			}
-		}
+		wait = new Webdrivewaitutils(driver);
+		wait.selectdropdownwithselecttag(ele, value, getnoofcolumns());
 	}
 
-	public void selectdropdown2(List<WebElement> options, String value) {
-
-		for (WebElement option : options) {
-			if (option.getText().equals(value)) {
-				option.click();
-				break;
-			}
-		}
-
-	}
-
-	public void datepicker() {
-		String monthyear = "March 2017";
-		String date = "13";
-
-		datepicker.click();
-
-		while (true) {
-			String text = monthdatetext.getText();
-			if (text.equals(monthyear)) {
-				break;
-			}
-
-			else {
+	public void selectdropdown2(List<WebElement> alloptions, String value) {
 		
-				datemover.click();
-			}
-
-		}
-		date13.click();
-
+		wait = new Webdrivewaitutils(driver);
+		wait.selectdropdownwithnoselecttag(alloptions, value, getnoofcolumns());
+		
 	}
 
 	public void search() {
 		search.click();
 	}
 
-	public int getnoofrows() {
-		return (tableRows.size());
-	}
-
 	public int getnoofcolumns() {
-		return (tableColumns.size());
+		return tableColumns.size();
 	}
 
 	public boolean searchOrders(String email) {
-
+		
+		int rowscount = tableRows.size();
+	
 		boolean flag = false;
 
-		for (int i = 1; i <= getnoofrows(); i++) {
+		for (int i = 1; i<= rowscount; i++) {
 
-			String emailid = table.findElement(By.xpath("//*[@id=\"orders-grid\"]/tbody/tr[1]/td[6]/a")).getText();
+			String emailid = table.findElement(By.xpath("//a[text()='victoria_victoria@nopCommerce.com']")).getText();
 			
 			if (emailid.equals(email)) {
 				flag = true;

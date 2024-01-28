@@ -2,8 +2,8 @@ package com.nopCommerceapplication.testcases;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Date;
-import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -27,13 +27,11 @@ import org.testng.annotations.Parameters;
 import com.nopCommerceapplication.utility.Readconfig;
 
 public class Baseclass {
-	Readconfig read =new Readconfig();
 	
-	public String baseurl = read.geturl();
-	public String username = read.getusername();
-	public String password = read.getpassword();
-	public static WebDriver driver;  
-	public Logger log;
+	Readconfig read =new Readconfig();
+
+	public static Logger log;
+	public static WebDriver driver;
 	
 	@Parameters("browser")
 	@BeforeMethod
@@ -42,11 +40,11 @@ public class Baseclass {
 		
 		if(br.equals("chrome"))
 		{
-		System.setProperty("webdriver.chrome.driver", read.getchromepath());
+		//System.setProperty("webdriver.chrome.driver", read.getchromepath());
 		
-		ChromeOptions ops = new ChromeOptions();                                    
+		ChromeOptions ops = new ChromeOptions();  
 		ops.addArguments("--remote-allow-origins=*");
-		
+	
 		 driver = new ChromeDriver(ops);
 		}
 		else if(br.equals("firefox"))
@@ -67,7 +65,7 @@ public class Baseclass {
 		
 		driver.get(read.geturl());
 		log.info("url is opened");
-		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));		
 	}
 	
 	public  String randomString() {
@@ -83,7 +81,7 @@ public class Baseclass {
 	}
 
 
-public static String takeScreenshot(String testName,WebDriver driver) 
+public  static String takeScreenshot(String testName, WebDriver driver) 
 {
     TakesScreenshot ts = (TakesScreenshot) driver;                                                     
 	File source = ts.getScreenshotAs(OutputType.FILE);
@@ -94,7 +92,6 @@ public static String takeScreenshot(String testName,WebDriver driver)
 		e.printStackTrace();
 	}
 	return target.getAbsolutePath();
-
 }
 
 public static String Timestamp()
@@ -104,6 +101,6 @@ public static String Timestamp()
 	
 }
 
-	
 }
+
 

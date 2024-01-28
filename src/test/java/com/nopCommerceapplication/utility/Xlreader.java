@@ -11,10 +11,12 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Xlreader {
+	
+	
 
 	public static Object[][] Readdatafromexcel(String sheetname) throws IOException, InterruptedException {
 		
-		File file = new File(".//Testdata//nopEcommercedata.xlsx");
+		File file = new File("C:\\Users\\arunn\\eclipse-workspace\\nopCommerceapplication\\Testdata\\nopEcommercedata.xlsx");
 
 		FileInputStream fis = new FileInputStream(file);
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
