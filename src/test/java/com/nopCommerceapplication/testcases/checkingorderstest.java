@@ -9,32 +9,33 @@ import com.nopCommerceapplication.pageobject.Loginpage;
 import com.nopCommerceapplication.pageobject.checkingorderspage;
 import com.nopCommerceapplication.utility.Readconfig;
 
-public class checkingorderstest extends Baseclass{
-	
+public class checkingorderstest extends Baseclass {
+
 	Readconfig read = new Readconfig();
-   	
-	@Test
+
+	@Test(groups = { "sanity" })
+
 	public void checkingorders() throws IOException, InterruptedException {
-	
+
 		Loginpage lp = new Loginpage(driver);
 		checkingorderspage check = new checkingorderspage(driver);
-	
+
 		lp.setusername(read.getusername());
 
 		log.info("User name is entered");
-		
-        lp.setpassword(read.getpassword());
-		
-    	log.info("password is passed");
+
+		lp.setpassword(read.getpassword());
+
+		log.info("password is passed");
 
 		lp.clicklogin();
-		
+
 		log.info("clicked on login");
-				
+
 		check.sales();
-				
+
 		check.orders();
-		
+
 		log.info("clicked on orders");
 
 		check.Billingcountry();
@@ -44,28 +45,25 @@ public class checkingorderstest extends Baseclass{
 		check.selectdropdown1(check.Paymentmethod, "Check / Money Order");
 
 		check.Orderstatus();
-		check.selectdropdown2(check.Orderstatus1, "Complete");
+		check.selectdropdown2(check.Ordstadropdownvalues, "Complete");
 
 		check.Paymentstatuses();
-		check.selectdropdown2(check.Paymentstatuses1, "Paid");
+		check.selectdropdown2(check.Paymentstatusesdropdownvalues, "Paid");
 
 		check.Shippingstatuses();
-		check.selectdropdown2(check.Shippingstatuses1, "Delivered");
+		check.selectdropdown2(check.Shippingstatuses1dropdownvalues, "Delivered");
 
-		check.datepicker();
+		// check.datepicker();
+
+		Thread.sleep(3000);
 
 		check.search();
 
 		boolean status = check.searchOrders("victoria_victoria@nopCommerce.com");
 		Assert.assertEquals(true, status);
-		
+
 		log.info("all details are entered");
-			
 
 	}
 
-	
 }
-
-
-

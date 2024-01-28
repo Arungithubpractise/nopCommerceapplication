@@ -14,6 +14,13 @@
           <include name="DdLogintest" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- com.nopCommerceapplication.testcases.DDLogintest -->
+      <class name="com.nopCommerceapplication.testcases.checkingorderstest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="checkingorders"/>
+        </methods>
+      </class> <!-- com.nopCommerceapplication.testcases.checkingorderstest -->
     </classes>
   </test> <!-- Test(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Suite]] -->

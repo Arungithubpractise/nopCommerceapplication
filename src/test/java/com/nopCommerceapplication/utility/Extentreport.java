@@ -19,8 +19,8 @@ public class Extentreport {
 		ExtentSparkReporter sparkReporter = new ExtentSparkReporter(extentReportFile);
 		
 		sparkReporter.config().setTheme(Theme.DARK);
-		sparkReporter.config().setReportName("nopcommerce application execcution report");
-		sparkReporter.config().setDocumentTitle("nopcommerce Automation Report");
+		sparkReporter.config().setReportName("nopCommerce application execcution report");
+		sparkReporter.config().setDocumentTitle("nopCommerce Automation Report");
 		sparkReporter.config().setTimeStampFormat("dd/MM/yyyy hh:mm:ss");
 		
 		extentReport.attachReporter(sparkReporter);	
