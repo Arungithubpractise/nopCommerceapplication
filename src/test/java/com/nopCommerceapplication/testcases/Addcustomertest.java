@@ -31,7 +31,6 @@ public class Addcustomertest extends Baseclass{
 		lp.clicklogin();		
 		log.info("clicked on Login");
 		
-	
 		addcust.clickOnCustomersMenu();
 
 		addcust.lnkCustomers_menuitem();

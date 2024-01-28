@@ -21,6 +21,7 @@ public class checkingorderspage {
 		
 	}
 
+	
 	@FindBy(xpath = "(//p)[13]")
 	WebElement sales;
 

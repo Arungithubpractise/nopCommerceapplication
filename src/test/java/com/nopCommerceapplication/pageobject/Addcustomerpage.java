@@ -19,6 +19,8 @@ public class Addcustomerpage {
 		PageFactory.initElements(driver, this);
 	}
 	
+	
+	
 	@FindBy(xpath = "//i[@class='nav-icon far fa-user']")
 	WebElement lnkCustomers_menu;
 	

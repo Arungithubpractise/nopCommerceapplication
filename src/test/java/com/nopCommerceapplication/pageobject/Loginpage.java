@@ -33,6 +33,7 @@ public class Loginpage {
 	@FindBy(id = "Email-error")
 	WebElement Emailemailerror;
 	
+	
 public  void setusername(String user)
 {
 	emailfield.clear();

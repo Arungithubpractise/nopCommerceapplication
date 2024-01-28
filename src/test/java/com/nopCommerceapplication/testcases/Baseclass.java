@@ -37,7 +37,6 @@ public class Baseclass {
 	@BeforeMethod
 	public void setup(String br) throws IOException
 	{
-		
 		if(br.equals("chrome"))
 		{
 		//System.setProperty("webdriver.chrome.driver", read.getchromepath());
