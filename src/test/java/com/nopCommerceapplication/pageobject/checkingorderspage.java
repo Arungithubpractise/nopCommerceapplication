@@ -8,12 +8,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.nopCommerceapplication.utility.Webdrivewaitutils;
+import com.nopCommerceapplication.utility.Reusemethods;
 
 public class checkingorderspage {
 	
 	public WebDriver driver;
-	Webdrivewaitutils wait;
+	public Reusemethods wait;
 
 	public checkingorderspage(WebDriver driver) {
 		this.driver = driver;
@@ -71,49 +71,59 @@ public class checkingorderspage {
 	WebElement ord;
 
 	public  void sales() {
-		sales.click();
+		
+		wait = new Reusemethods(driver);
+		wait.clickOnElement(sales, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
 	}
 
 	public void orders() {
-		orders.click();
+		
+		wait.clickOnElement(orders, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
+		
 	}
 
 
 	public void Billingcountry() {
-		Billingcountry.click();
+		wait.clickOnElement(Billingcountry, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
+		
 	}
 
 	public void Paymentmethod() {
-		Paymentmethod.click();
+		wait.clickOnElement(Paymentmethod, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
+		
 	}
 
 	public void Orderstatus() {
-		Orderstatus.click();
+		wait.clickOnElement(Orderstatus, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
+		
 	}
 
 	public void Paymentstatuses() {
-		Paymentstatuses.click();
+		
+		wait.clickOnElement(Paymentstatuses, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
+		
 	}
 
 	public void Shippingstatuses() {
-		Shippingstatuses.click();
+		wait.clickOnElement(Shippingstatuses, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
+		
 	}
 
 	public void selectdropdown1(WebElement ele, String value) {
 	
-		wait = new Webdrivewaitutils(driver);
-		wait.selectdropdownwithselecttag(ele, value, getnoofcolumns());
+		wait.selectdropdownwithselecttag(ele, value, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
 	}
 
 	public void selectdropdown2(List<WebElement> alloptions, String value) {
-		
-		wait = new Webdrivewaitutils(driver);
-		wait.selectdropdownwithnoselecttag(alloptions, value, getnoofcolumns());
+			
+		wait.selectdropdownwithnoselecttag(alloptions, value, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
 		
 	}
 
-	public void search() {
-		search.click();
+	public void search() 
+	{
+		wait.clickOnElement(search, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
+		
 	}
 
 	public int getnoofcolumns() {

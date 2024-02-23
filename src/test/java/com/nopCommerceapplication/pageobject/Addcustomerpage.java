@@ -7,12 +7,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import com.nopCommerceapplication.utility.Webdrivewaitutils;
+import com.nopCommerceapplication.utility.Reusemethods;
 
 public class Addcustomerpage {
 	
 	public WebDriver driver;
-	public Webdrivewaitutils wait;
+	public Reusemethods wait;
 
 	public Addcustomerpage(WebDriver driver) {
 		this.driver = driver;
@@ -99,27 +99,26 @@ public class Addcustomerpage {
 
 	public void clickOnCustomersMenu() throws InterruptedException
 	{
-		wait = new Webdrivewaitutils(driver);
-		wait.clickOnElement(lnkCustomers_menu, Webdrivewaitutils.EXPLICIT_WAIT_BASIC_TIME);
+		wait = new Reusemethods(driver);
+		wait.clickOnElement(lnkCustomers_menu, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
 	}
 
 	public void lnkCustomers_menuitem() {
 
-		wait = new Webdrivewaitutils(driver);
-		wait.clickOnElement(lnkCustomers_menuitem, Webdrivewaitutils.EXPLICIT_WAIT_BASIC_TIME);
+		wait.clickOnElement(lnkCustomers_menuitem, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
 
 	}
 
 	public void clickOnAddnew() 
      {
-		wait = new Webdrivewaitutils(driver);
-		wait.clickOnElement(btnAddnew, Webdrivewaitutils.EXPLICIT_WAIT_BASIC_TIME);
+		
+		wait.clickOnElement(btnAddnew, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
 	}
 
 	public void setEmail(String email) {
 		
-		wait = new Webdrivewaitutils(driver);
-		wait.clickOnElement(txtEmail, Webdrivewaitutils.EXPLICIT_WAIT_BASIC_TIME);
+	
+		wait.clickOnElement(txtEmail, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
 
 	}
 
@@ -195,8 +194,8 @@ public class Addcustomerpage {
 	}
 
 	public void clickonsave(String dob) {
-		wait = new Webdrivewaitutils(driver);
-		wait.clickOnElement(btnSave, Webdrivewaitutils.EXPLICIT_WAIT_BASIC_TIME);
+		
+		wait.clickOnElement(btnSave, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
 	
 	}
 

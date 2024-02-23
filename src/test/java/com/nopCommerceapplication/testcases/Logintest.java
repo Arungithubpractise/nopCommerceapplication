@@ -7,6 +7,8 @@ import com.nopCommerceapplication.pageobject.Loginpage;
 import com.nopCommerceapplication.utility.Readconfig;
 
 public class Logintest extends Baseclass {
+	
+	public Loginpage lp;
 
 	Readconfig read = new Readconfig();
 	String credentialstext = "The credentials provided are incorrect";
@@ -15,7 +17,7 @@ public class Logintest extends Baseclass {
 	@Test(priority = 1, groups = { "smoke,Regression" })
 	public void logintestwithvalidcredentials() throws InterruptedException {
 
-		Loginpage lp = new Loginpage(driver);
+		 lp = new Loginpage(driver);
 
 		lp.setusername(read.getusername());
 
@@ -39,7 +41,7 @@ public class Logintest extends Baseclass {
 	@Test(priority = 2, groups = { "smoke" })
 	public void logintestwithinvalidcredentials() throws InterruptedException {
 
-		Loginpage lp = new Loginpage(driver);
+		lp = new Loginpage(driver);
 
 		lp.setusername("admin@yourstore.com");
 
@@ -62,7 +64,7 @@ public class Logintest extends Baseclass {
 	@Test(priority = 3, groups = { "sanity" })
 	public void logintestwithonlyusernameispassed() throws InterruptedException {
 
-		Loginpage lp = new Loginpage(driver);
+		lp = new Loginpage(driver);
 
 		lp.setusername("admin@yourstore.com");
 
@@ -83,9 +85,9 @@ public class Logintest extends Baseclass {
 	}
 
 	@Test(priority = 4)
-	public void logintestwithonlyusernamepassed() throws InterruptedException {
+	public void logintestwithonlypasswordispassed() throws InterruptedException {
 
-		Loginpage lp = new Loginpage(driver);
+		lp = new Loginpage(driver);
 
 		lp.setusername("");
 

@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Webdrivewaitutils {
+public class Reusemethods {
 	
 	public static final int IMPLICIT_WAIT_TIME=10;
 	public static final int PAGE_LOAD_TIME=15;
@@ -20,7 +20,7 @@ public class Webdrivewaitutils {
 	
 	WebDriver driver;
 	
-	public Webdrivewaitutils(WebDriver driver) {
+	public Reusemethods(WebDriver driver) {
 		
 	this.driver = driver;
 		

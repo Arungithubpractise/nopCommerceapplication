@@ -1,41 +1,48 @@
-2024-01-28 21:05:45,217  com.nopCommerceapplication.testcases.Baseclass url is opened  
-2024-01-28 21:05:45,499  com.nopCommerceapplication.testcases.Baseclass username is passed  
-2024-01-28 21:05:45,622  com.nopCommerceapplication.testcases.Baseclass password is passed  
-2024-01-28 21:05:46,735  com.nopCommerceapplication.testcases.Baseclass clicked on login  
-2024-01-28 21:05:47,972  com.nopCommerceapplication.testcases.Baseclass home page is displayed  
-2024-01-28 21:05:50,272  com.nopCommerceapplication.testcases.Baseclass url is opened  
-2024-01-28 21:05:50,482  com.nopCommerceapplication.testcases.Baseclass username is passed  
-2024-01-28 21:05:50,637  com.nopCommerceapplication.testcases.Baseclass password is passed  
-2024-01-28 21:05:51,064  com.nopCommerceapplication.testcases.Baseclass clicked on login  
-2024-01-28 21:05:51,109  com.nopCommerceapplication.testcases.Baseclass error meeasge is displayed  
-2024-01-28 21:05:53,891  com.nopCommerceapplication.testcases.Baseclass url is opened  
-2024-01-28 21:05:54,106  com.nopCommerceapplication.testcases.Baseclass username is passed  
-2024-01-28 21:05:54,254  com.nopCommerceapplication.testcases.Baseclass password is passed  
-2024-01-28 21:05:54,634  com.nopCommerceapplication.testcases.Baseclass clicked on login  
-2024-01-28 21:05:54,684  com.nopCommerceapplication.testcases.Baseclass error meeasge is displayed  
-2024-01-28 21:05:57,526  com.nopCommerceapplication.testcases.Baseclass url is opened  
-2024-01-28 21:05:57,694  com.nopCommerceapplication.testcases.Baseclass username is passed  
-2024-01-28 21:05:57,832  com.nopCommerceapplication.testcases.Baseclass password is passed  
-2024-01-28 21:05:57,928  com.nopCommerceapplication.testcases.Baseclass error meeasge is displayed  
-2024-01-28 21:06:00,162  com.nopCommerceapplication.testcases.Baseclass url is opened  
-2024-01-28 21:06:00,411  com.nopCommerceapplication.testcases.Baseclass User name is entered  
-2024-01-28 21:06:00,524  com.nopCommerceapplication.testcases.Baseclass password is passed  
-2024-01-28 21:06:01,604  com.nopCommerceapplication.testcases.Baseclass clicked on login  
-2024-01-28 21:06:03,496  com.nopCommerceapplication.testcases.Baseclass clicked on orders  
-2024-01-28 21:06:10,907  com.nopCommerceapplication.testcases.Baseclass all details are entered  
-2024-01-28 21:06:17,756  com.nopCommerceapplication.testcases.Baseclass url is opened  
-2024-01-28 21:06:17,975  com.nopCommerceapplication.testcases.Baseclass User name is entered  
-2024-01-28 21:06:18,125  com.nopCommerceapplication.testcases.Baseclass password  is entered  
-2024-01-28 21:06:19,153  com.nopCommerceapplication.testcases.Baseclass clicked on Login  
-2024-01-28 21:06:28,860  com.nopCommerceapplication.testcases.Baseclass url is opened  
-2024-01-28 21:06:29,053  com.nopCommerceapplication.testcases.Baseclass username is passed  
-2024-01-28 21:06:29,207  com.nopCommerceapplication.testcases.Baseclass password is passed  
-2024-01-28 21:06:30,890  com.nopCommerceapplication.testcases.Baseclass home page is displayed  
-2024-01-28 21:06:33,112  com.nopCommerceapplication.testcases.Baseclass url is opened  
-2024-01-28 21:06:33,293  com.nopCommerceapplication.testcases.Baseclass username is passed  
-2024-01-28 21:06:33,416  com.nopCommerceapplication.testcases.Baseclass password is passed  
-2024-01-28 21:06:36,143  com.nopCommerceapplication.testcases.Baseclass url is opened  
-2024-01-28 21:06:36,317  com.nopCommerceapplication.testcases.Baseclass username is passed  
-2024-01-28 21:06:36,460  com.nopCommerceapplication.testcases.Baseclass password is passed  
-2024-01-28 21:06:39,277  com.nopCommerceapplication.testcases.Baseclass url is opened  
-2024-01-28 21:06:41,626  com.nopCommerceapplication.testcases.Baseclass url is opened  
+2024-02-23 13:05:28,267  com.nopCommerceapplication.testcases.Baseclass url is opened  
+2024-02-23 13:05:28,507  com.nopCommerceapplication.testcases.Baseclass username is passed  
+2024-02-23 13:05:28,723  com.nopCommerceapplication.testcases.Baseclass password is passed  
+2024-02-23 13:05:30,358  com.nopCommerceapplication.testcases.Baseclass clicked on login  
+2024-02-23 13:05:31,915  com.nopCommerceapplication.testcases.Baseclass home page is displayed  
+2024-02-23 13:05:37,718  com.nopCommerceapplication.testcases.Baseclass url is opened  
+2024-02-23 13:05:49,483  com.nopCommerceapplication.testcases.Baseclass url is opened  
+2024-02-23 13:06:07,752  com.nopCommerceapplication.testcases.Baseclass url is opened  
+2024-02-23 13:06:08,071  com.nopCommerceapplication.testcases.Baseclass username is passed  
+2024-02-23 13:06:08,243  com.nopCommerceapplication.testcases.Baseclass password is passed  
+2024-02-23 13:06:09,876  com.nopCommerceapplication.testcases.Baseclass clicked on login  
+2024-02-23 13:06:11,623  com.nopCommerceapplication.testcases.Baseclass home page is displayed  
+2024-02-23 13:06:17,960  com.nopCommerceapplication.testcases.Baseclass url is opened  
+2024-02-23 13:06:18,217  com.nopCommerceapplication.testcases.Baseclass username is passed  
+2024-02-23 13:06:18,397  com.nopCommerceapplication.testcases.Baseclass password is passed  
+2024-02-23 13:06:18,925  com.nopCommerceapplication.testcases.Baseclass clicked on login  
+2024-02-23 13:06:19,061  com.nopCommerceapplication.testcases.Baseclass error meeasge is displayed  
+2024-02-23 13:06:25,354  com.nopCommerceapplication.testcases.Baseclass url is opened  
+2024-02-23 13:06:25,573  com.nopCommerceapplication.testcases.Baseclass username is passed  
+2024-02-23 13:06:25,792  com.nopCommerceapplication.testcases.Baseclass password is passed  
+2024-02-23 13:06:26,302  com.nopCommerceapplication.testcases.Baseclass clicked on login  
+2024-02-23 13:06:26,438  com.nopCommerceapplication.testcases.Baseclass error meeasge is displayed  
+2024-02-23 13:06:32,858  com.nopCommerceapplication.testcases.Baseclass url is opened  
+2024-02-23 13:06:33,029  com.nopCommerceapplication.testcases.Baseclass username is passed  
+2024-02-23 13:06:33,236  com.nopCommerceapplication.testcases.Baseclass password is passed  
+2024-02-23 13:06:33,427  com.nopCommerceapplication.testcases.Baseclass error meeasge is displayed  
+2024-02-23 13:06:40,190  com.nopCommerceapplication.testcases.Baseclass url is opened  
+2024-02-23 13:06:40,375  com.nopCommerceapplication.testcases.Baseclass username is passed  
+2024-02-23 13:06:40,622  com.nopCommerceapplication.testcases.Baseclass password is passed  
+2024-02-23 13:06:44,065  com.nopCommerceapplication.testcases.Baseclass home page is displayed  
+2024-02-23 13:06:51,146  com.nopCommerceapplication.testcases.Baseclass url is opened  
+2024-02-23 13:06:51,388  com.nopCommerceapplication.testcases.Baseclass username is passed  
+2024-02-23 13:06:51,505  com.nopCommerceapplication.testcases.Baseclass password is passed  
+2024-02-23 13:06:59,015  com.nopCommerceapplication.testcases.Baseclass url is opened  
+2024-02-23 13:06:59,230  com.nopCommerceapplication.testcases.Baseclass username is passed  
+2024-02-23 13:06:59,453  com.nopCommerceapplication.testcases.Baseclass password is passed  
+2024-02-23 13:07:06,683  com.nopCommerceapplication.testcases.Baseclass url is opened  
+2024-02-23 13:07:13,041  com.nopCommerceapplication.testcases.Baseclass url is opened  
+2024-02-23 13:07:18,309  com.nopCommerceapplication.testcases.Baseclass url is opened  
+2024-02-23 13:07:18,540  com.nopCommerceapplication.testcases.Baseclass User name is entered  
+2024-02-23 13:07:18,757  com.nopCommerceapplication.testcases.Baseclass password is passed  
+2024-02-23 13:07:20,326  com.nopCommerceapplication.testcases.Baseclass clicked on login  
+2024-02-23 13:07:23,300  com.nopCommerceapplication.testcases.Baseclass clicked on orders  
+2024-02-23 13:07:30,411  com.nopCommerceapplication.testcases.Baseclass all details are entered  
+2024-02-23 13:07:37,120  com.nopCommerceapplication.testcases.Baseclass url is opened  
+2024-02-23 13:07:37,320  com.nopCommerceapplication.testcases.Baseclass User name is entered  
+2024-02-23 13:07:37,424  com.nopCommerceapplication.testcases.Baseclass password  is entered  
+2024-02-23 13:07:39,252  com.nopCommerceapplication.testcases.Baseclass clicked on Login  

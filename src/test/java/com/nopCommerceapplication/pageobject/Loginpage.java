@@ -5,9 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.nopCommerceapplication.utility.Reusemethods;
+
 public class Loginpage {
 	
-	WebDriver driver;
+	public WebDriver driver;
+	public Reusemethods wait;
 	
 	public Loginpage(WebDriver driver) {
 		
@@ -48,8 +51,8 @@ public void setpassword(String pass)
 }
 public void clicklogin()
 {
-	loginbutton.click();
-
+	wait = new Reusemethods(driver);
+	wait.clickOnElement(loginbutton, Reusemethods.EXPLICIT_WAIT_BASIC_TIME);
 }
 
 public String credentialserrormessage()

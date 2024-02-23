@@ -2,23 +2,23 @@
 <testng-results retried="2" ignored="0" total="11" passed="7" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-28T21:05:41 IST" name="Suite" finished-at="2024-01-28T21:06:42 IST" duration-ms="60452">
+  <suite started-at="2024-02-23T13:06:01 IST" name="Suite" finished-at="2024-02-23T13:07:47 IST" duration-ms="106165">
     <groups>
       <group name="smoke,Regression">
-        <method signature="Logintest.logintestwithvalidcredentials()[pri:1, instance:com.nopCommerceapplication.testcases.Logintest@1b11171f]" name="logintestwithvalidcredentials" class="com.nopCommerceapplication.testcases.Logintest"/>
+        <method signature="Logintest.logintestwithvalidcredentials()[pri:1, instance:com.nopCommerceapplication.testcases.Logintest@6c64cb25]" name="logintestwithvalidcredentials" class="com.nopCommerceapplication.testcases.Logintest"/>
       </group> <!-- smoke,Regression -->
       <group name="smoke">
-        <method signature="DatadrivenonLogin.DdLogintest(java.lang.String,java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" name="DdLogintest" class="com.nopCommerceapplication.testcases.DatadrivenonLogin"/>
-        <method signature="Logintest.logintestwithinvalidcredentials()[pri:2, instance:com.nopCommerceapplication.testcases.Logintest@1b11171f]" name="logintestwithinvalidcredentials" class="com.nopCommerceapplication.testcases.Logintest"/>
+        <method signature="DatadrivenonLogin.DdLogintest(java.lang.String,java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" name="DdLogintest" class="com.nopCommerceapplication.testcases.DatadrivenonLogin"/>
+        <method signature="Logintest.logintestwithinvalidcredentials()[pri:2, instance:com.nopCommerceapplication.testcases.Logintest@6c64cb25]" name="logintestwithinvalidcredentials" class="com.nopCommerceapplication.testcases.Logintest"/>
       </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="checkingorderstest.checkingorders()[pri:0, instance:com.nopCommerceapplication.testcases.checkingorderstest@f09733f]" name="checkingorders" class="com.nopCommerceapplication.testcases.checkingorderstest"/>
-        <method signature="Logintest.logintestwithonlyusernameispassed()[pri:3, instance:com.nopCommerceapplication.testcases.Logintest@1b11171f]" name="logintestwithonlyusernameispassed" class="com.nopCommerceapplication.testcases.Logintest"/>
+        <method signature="checkingorderstest.checkingorders()[pri:0, instance:com.nopCommerceapplication.testcases.checkingorderstest@5b8dfcc1]" name="checkingorders" class="com.nopCommerceapplication.testcases.checkingorderstest"/>
+        <method signature="Logintest.logintestwithonlyusernameispassed()[pri:3, instance:com.nopCommerceapplication.testcases.Logintest@6c64cb25]" name="logintestwithonlyusernameispassed" class="com.nopCommerceapplication.testcases.Logintest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-01-28T21:05:41 IST" name="Test" finished-at="2024-01-28T21:06:42 IST" duration-ms="60452">
+    <test started-at="2024-02-23T13:06:01 IST" name="Test" finished-at="2024-02-23T13:07:47 IST" duration-ms="106165">
       <class name="com.nopCommerceapplication.testcases.DatadrivenonLogin">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" started-at="2024-01-28T21:06:26 IST" name="setup" finished-at="2024-01-28T21:06:28 IST" duration-ms="2170" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" started-at="2024-02-23T13:06:34 IST" name="setup" finished-at="2024-02-23T13:06:40 IST" duration-ms="5984" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="DdLogintest(java.lang.String,java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" started-at="2024-01-28T21:06:28 IST" name="DdLogintest" data-provider="abc" finished-at="2024-01-28T21:06:30 IST" duration-ms="2025" status="PASS">
+        <test-method signature="DdLogintest(java.lang.String,java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" started-at="2024-02-23T13:06:40 IST" name="DdLogintest" data-provider="abc" finished-at="2024-02-23T13:06:44 IST" duration-ms="3859" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,11 +45,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DdLogintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" started-at="2024-01-28T21:06:30 IST" name="teardown" finished-at="2024-01-28T21:06:31 IST" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" started-at="2024-02-23T13:06:44 IST" name="teardown" finished-at="2024-02-23T13:06:44 IST" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" started-at="2024-01-28T21:06:31 IST" name="setup" finished-at="2024-01-28T21:06:33 IST" duration-ms="2110" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" started-at="2024-02-23T13:06:44 IST" name="setup" finished-at="2024-02-23T13:06:51 IST" duration-ms="6854" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="DdLogintest(java.lang.String,java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" started-at="2024-01-28T21:06:33 IST" name="DdLogintest" data-provider="abc" finished-at="2024-01-28T21:06:33 IST" duration-ms="743" status="SKIP">
+        <test-method retried="true" signature="DdLogintest(java.lang.String,java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" started-at="2024-02-23T13:06:51 IST" name="DdLogintest" data-provider="abc" finished-at="2024-02-23T13:06:52 IST" duration-ms="1032" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -80,35 +80,37 @@
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: expected [https://admin-demo.nopcommerce.com/admin/] but found [https://admin-demo.nopcommerce.com/login?returnurl=%2Fadmin%2F]
 at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
 at com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest(DatadrivenonLogin.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
@@ -118,11 +120,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DdLogintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" started-at="2024-01-28T21:06:33 IST" name="teardown" finished-at="2024-01-28T21:06:34 IST" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" started-at="2024-02-23T13:06:52 IST" name="teardown" finished-at="2024-02-23T13:06:52 IST" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" started-at="2024-01-28T21:06:34 IST" name="setup" finished-at="2024-01-28T21:06:36 IST" duration-ms="2111" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" started-at="2024-02-23T13:06:52 IST" name="setup" finished-at="2024-02-23T13:06:59 IST" duration-ms="6614" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -133,7 +135,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="DdLogintest(java.lang.String,java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" started-at="2024-01-28T21:06:36 IST" name="DdLogintest" data-provider="abc" finished-at="2024-01-28T21:06:36 IST" duration-ms="753" status="FAIL">
+        <test-method signature="DdLogintest(java.lang.String,java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" started-at="2024-02-23T13:06:59 IST" name="DdLogintest" data-provider="abc" finished-at="2024-02-23T13:07:00 IST" duration-ms="1064" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -153,35 +155,37 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: expected [https://admin-demo.nopcommerce.com/admin/] but found [https://admin-demo.nopcommerce.com/login?returnurl=%2Fadmin%2F]
 at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
 at com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest(DatadrivenonLogin.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:261)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
@@ -191,11 +195,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DdLogintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" started-at="2024-01-28T21:06:37 IST" name="teardown" finished-at="2024-01-28T21:06:37 IST" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" started-at="2024-02-23T13:07:00 IST" name="teardown" finished-at="2024-02-23T13:07:00 IST" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" started-at="2024-01-28T21:06:37 IST" name="setup" finished-at="2024-01-28T21:06:39 IST" duration-ms="2092" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" started-at="2024-02-23T13:07:00 IST" name="setup" finished-at="2024-02-23T13:07:06 IST" duration-ms="6215" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -206,7 +210,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="DdLogintest(java.lang.String,java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" started-at="2024-01-28T21:06:39 IST" name="DdLogintest" data-provider="abc" finished-at="2024-01-28T21:06:39 IST" duration-ms="121" status="SKIP">
+        <test-method retried="true" signature="DdLogintest(java.lang.String,java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" started-at="2024-02-23T13:07:06 IST" name="DdLogintest" data-provider="abc" finished-at="2024-02-23T13:07:06 IST" duration-ms="97" status="SKIP">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -221,36 +225,40 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
-at com.nopCommerceapplication.pageobject.Loginpage.setusername(Loginpage.java:39)
+at com.nopCommerceapplication.pageobject.Loginpage.setusername(Loginpage.java:43)
 at com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest(DatadrivenonLogin.java:22)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
@@ -260,11 +268,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DdLogintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" started-at="2024-01-28T21:06:39 IST" name="teardown" finished-at="2024-01-28T21:06:39 IST" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" started-at="2024-02-23T13:07:06 IST" name="teardown" finished-at="2024-02-23T13:07:06 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" started-at="2024-01-28T21:06:39 IST" name="setup" finished-at="2024-01-28T21:06:41 IST" duration-ms="2091" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" started-at="2024-02-23T13:07:07 IST" name="setup" finished-at="2024-02-23T13:07:13 IST" duration-ms="6032" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -275,7 +283,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="DdLogintest(java.lang.String,java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" started-at="2024-01-28T21:06:41 IST" name="DdLogintest" data-provider="abc" finished-at="2024-01-28T21:06:41 IST" duration-ms="76" status="FAIL">
+        <test-method signature="DdLogintest(java.lang.String,java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" started-at="2024-02-23T13:07:13 IST" name="DdLogintest" data-provider="abc" finished-at="2024-02-23T13:07:13 IST" duration-ms="99" status="FAIL">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -290,36 +298,40 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
-at com.nopCommerceapplication.pageobject.Loginpage.setusername(Loginpage.java:39)
+at com.nopCommerceapplication.pageobject.Loginpage.setusername(Loginpage.java:43)
 at com.nopCommerceapplication.testcases.DatadrivenonLogin.DdLogintest(DatadrivenonLogin.java:22)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:261)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
@@ -329,13 +341,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DdLogintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@41a0aa7d]" started-at="2024-01-28T21:06:41 IST" name="teardown" finished-at="2024-01-28T21:06:42 IST" duration-ms="106" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.DatadrivenonLogin@72967906]" started-at="2024-02-23T13:07:13 IST" name="teardown" finished-at="2024-02-23T13:07:13 IST" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.nopCommerceapplication.testcases.DatadrivenonLogin -->
       <class name="com.nopCommerceapplication.testcases.checkingorderstest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.checkingorderstest@f09733f]" started-at="2024-01-28T21:05:58 IST" name="setup" finished-at="2024-01-28T21:06:00 IST" duration-ms="2115" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.checkingorderstest@5b8dfcc1]" started-at="2024-02-23T13:07:13 IST" name="setup" finished-at="2024-02-23T13:07:18 IST" duration-ms="4830" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -346,17 +358,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkingorders()[pri:0, instance:com.nopCommerceapplication.testcases.checkingorderstest@f09733f]" started-at="2024-01-28T21:06:00 IST" name="checkingorders" finished-at="2024-01-28T21:06:10 IST" duration-ms="10731" status="PASS">
+        <test-method signature="checkingorders()[pri:0, instance:com.nopCommerceapplication.testcases.checkingorderstest@5b8dfcc1]" started-at="2024-02-23T13:07:18 IST" name="checkingorders" finished-at="2024-02-23T13:07:30 IST" duration-ms="12054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkingorders -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.checkingorderstest@f09733f]" started-at="2024-01-28T21:06:10 IST" name="teardown" finished-at="2024-01-28T21:06:11 IST" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.checkingorderstest@5b8dfcc1]" started-at="2024-02-23T13:07:30 IST" name="teardown" finished-at="2024-02-23T13:07:30 IST" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.nopCommerceapplication.testcases.checkingorderstest -->
       <class name="com.nopCommerceapplication.testcases.Logintest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@1b11171f]" started-at="2024-01-28T21:05:41 IST" name="setup" finished-at="2024-01-28T21:05:45 IST" duration-ms="3384" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@6c64cb25]" started-at="2024-02-23T13:06:02 IST" name="setup" finished-at="2024-02-23T13:06:07 IST" duration-ms="5706" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -367,15 +379,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintestwithvalidcredentials()[pri:1, instance:com.nopCommerceapplication.testcases.Logintest@1b11171f]" started-at="2024-01-28T21:05:45 IST" name="logintestwithvalidcredentials" finished-at="2024-01-28T21:05:47 IST" duration-ms="2730" status="PASS">
+        <test-method signature="logintestwithvalidcredentials()[pri:1, instance:com.nopCommerceapplication.testcases.Logintest@6c64cb25]" started-at="2024-02-23T13:06:07 IST" name="logintestwithvalidcredentials" finished-at="2024-02-23T13:06:11 IST" duration-ms="3851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintestwithvalidcredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@1b11171f]" started-at="2024-01-28T21:05:47 IST" name="teardown" finished-at="2024-01-28T21:05:48 IST" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@6c64cb25]" started-at="2024-02-23T13:06:11 IST" name="teardown" finished-at="2024-02-23T13:06:11 IST" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@1b11171f]" started-at="2024-01-28T21:05:48 IST" name="setup" finished-at="2024-01-28T21:05:50 IST" duration-ms="2146" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@6c64cb25]" started-at="2024-02-23T13:06:11 IST" name="setup" finished-at="2024-02-23T13:06:17 IST" duration-ms="6142" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -386,15 +398,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintestwithinvalidcredentials()[pri:2, instance:com.nopCommerceapplication.testcases.Logintest@1b11171f]" started-at="2024-01-28T21:05:50 IST" name="logintestwithinvalidcredentials" finished-at="2024-01-28T21:05:51 IST" duration-ms="829" status="PASS">
+        <test-method signature="logintestwithinvalidcredentials()[pri:2, instance:com.nopCommerceapplication.testcases.Logintest@6c64cb25]" started-at="2024-02-23T13:06:17 IST" name="logintestwithinvalidcredentials" finished-at="2024-02-23T13:06:19 IST" duration-ms="1079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintestwithinvalidcredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@1b11171f]" started-at="2024-01-28T21:05:51 IST" name="teardown" finished-at="2024-01-28T21:05:51 IST" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@6c64cb25]" started-at="2024-02-23T13:06:19 IST" name="teardown" finished-at="2024-02-23T13:06:19 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@1b11171f]" started-at="2024-01-28T21:05:51 IST" name="setup" finished-at="2024-01-28T21:05:53 IST" duration-ms="2661" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@6c64cb25]" started-at="2024-02-23T13:06:19 IST" name="setup" finished-at="2024-02-23T13:06:25 IST" duration-ms="6143" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -405,15 +417,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintestwithonlyusernameispassed()[pri:3, instance:com.nopCommerceapplication.testcases.Logintest@1b11171f]" started-at="2024-01-28T21:05:53 IST" name="logintestwithonlyusernameispassed" finished-at="2024-01-28T21:05:54 IST" duration-ms="786" status="PASS">
+        <test-method signature="logintestwithonlyusernameispassed()[pri:3, instance:com.nopCommerceapplication.testcases.Logintest@6c64cb25]" started-at="2024-02-23T13:06:25 IST" name="logintestwithonlyusernameispassed" finished-at="2024-02-23T13:06:26 IST" duration-ms="1046" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintestwithonlyusernameispassed -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@1b11171f]" started-at="2024-01-28T21:05:54 IST" name="teardown" finished-at="2024-01-28T21:05:54 IST" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@6c64cb25]" started-at="2024-02-23T13:06:26 IST" name="teardown" finished-at="2024-02-23T13:06:26 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@1b11171f]" started-at="2024-01-28T21:05:54 IST" name="setup" finished-at="2024-01-28T21:05:57 IST" duration-ms="2715" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@6c64cb25]" started-at="2024-02-23T13:06:26 IST" name="setup" finished-at="2024-02-23T13:06:32 IST" duration-ms="6246" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -424,17 +436,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintestwithonlyusernamepassed()[pri:4, instance:com.nopCommerceapplication.testcases.Logintest@1b11171f]" started-at="2024-01-28T21:05:57 IST" name="logintestwithonlyusernamepassed" finished-at="2024-01-28T21:05:57 IST" duration-ms="397" status="PASS">
+        <test-method signature="logintestwithonlypasswordispassed()[pri:4, instance:com.nopCommerceapplication.testcases.Logintest@6c64cb25]" started-at="2024-02-23T13:06:32 IST" name="logintestwithonlypasswordispassed" finished-at="2024-02-23T13:06:33 IST" duration-ms="558" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logintestwithonlyusernamepassed -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@1b11171f]" started-at="2024-01-28T21:05:57 IST" name="teardown" finished-at="2024-01-28T21:05:58 IST" duration-ms="128" status="PASS">
+        </test-method> <!-- logintestwithonlypasswordispassed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.Logintest@6c64cb25]" started-at="2024-02-23T13:06:33 IST" name="teardown" finished-at="2024-02-23T13:06:33 IST" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.nopCommerceapplication.testcases.Logintest -->
       <class name="com.nopCommerceapplication.testcases.Addcustomertest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.Addcustomertest@e350b40]" started-at="2024-01-28T21:06:11 IST" name="setup" finished-at="2024-01-28T21:06:17 IST" duration-ms="6695" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerceapplication.testcases.Addcustomertest@2f9f7dcf]" started-at="2024-02-23T13:07:30 IST" name="setup" finished-at="2024-02-23T13:07:37 IST" duration-ms="6386" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -445,11 +457,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Addcustomer()[pri:0, instance:com.nopCommerceapplication.testcases.Addcustomertest@e350b40]" started-at="2024-01-28T21:06:17 IST" name="Addcustomer" finished-at="2024-01-28T21:06:26 IST" duration-ms="8274" status="PASS">
+        <test-method signature="Addcustomer()[pri:0, instance:com.nopCommerceapplication.testcases.Addcustomertest@2f9f7dcf]" started-at="2024-02-23T13:07:37 IST" name="Addcustomer" finished-at="2024-02-23T13:07:47 IST" duration-ms="10525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Addcustomer -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.Addcustomertest@e350b40]" started-at="2024-01-28T21:06:26 IST" name="teardown" finished-at="2024-01-28T21:06:26 IST" duration-ms="125" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nopCommerceapplication.testcases.Addcustomertest@2f9f7dcf]" started-at="2024-02-23T13:07:47 IST" name="teardown" finished-at="2024-02-23T13:07:47 IST" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
